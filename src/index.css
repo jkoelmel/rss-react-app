@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: -apple-system, ap_text, ap_text_condensed, ap_text_condensed_lt, ap_text_condensed_thin,
+    sans-serif, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'ap_text';
+  src: local('ap_text'), url('./assets/fonts/ap_text_regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ap_text_condensed';
+  src: local('ap_text_condensed'), url('./assets/fonts/ap_text_condensed.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ap_text_condensed_lt';
+  src: local('ap_text_condensed_lt'), url('./assets/fonts/ap_text_condensed_lt.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ap_display_reg';
+  src: local('ap_display_reg'), url('./assets/fonts/ap_display_regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ap_text_condensed_thin';
+  src: local('ap_text_condensed_thin'), url('./assets/fonts/ap_text_condensed_thin.ttf') format('truetype');
+}
